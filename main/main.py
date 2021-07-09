@@ -27,6 +27,7 @@ class Product(db.Model):
     image = db.Column(db.String(200))
 
 
+
 @dataclass
 class ProductUser(db.Model):
     id = db.Column(db.Integer, primary_key=True)
